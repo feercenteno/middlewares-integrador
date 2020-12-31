@@ -1,1 +1,29 @@
-[]
+[
+ {
+  "id": 0
+ },
+ {
+  "id": 1,
+  "email": "asd123@asd.com",
+  "password": "$2a$10$hcJwkm8ZytgustlnpCkm4essqtqJX6M7b112ydyIISwjtmN.M72pa",
+  "avatar": "avatar-1609116606947.jpg"
+ },
+ {
+  "id": 2,
+  "email": "fer@asdasd.com",
+  "password": "$2a$10$S6KSvH8n30OefNH4Mek2dO0S/93M1s1HlH1z1GQqjWCyRe8gdBibS",
+  "avatar": "avatar-1609116652600.jpg"
+ },
+ {
+  "id": 3,
+  "email": "nuevo@usuario.com",
+  "password": "$2a$10$Dm/DhrX2sm8u1oic3M378ekr/auJ6pNFCCIDXcs3exIiRBxwYXG/u",
+  "avatar": "avatar-1609297546965.jpg"
+ },
+ {
+  "id": 4,
+  "email": "segundo@usuario.com",
+  "password": "$2a$10$odh8d7aEp7/M9Mq2vIkdpu//5a4RXwtMDTFzKfagK5bFWIi19lV22",
+  "avatar": "avatar-1609369232727.jpg"
+ }
+]

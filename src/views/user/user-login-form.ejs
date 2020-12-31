@@ -17,8 +17,21 @@
 				<form action="/user/login/" method="POST">
 					<div class="row product-detail">
 						<div class="col-12">
+							<% if (typeof errors != "undefined") { %>
+
+							<% errors.forEach(error => { %>
+
+							<p> <%= error.msg %> </p>
+
+							<% }) %>
+
+							<% } %>
 							<label for="email" class="form-label">Email:</label>
-							<input type="text" id="email" name="email" placeholder="Ej: example@example.com" class="form-input" value="">
+							<% if (typeof old != "undefined") { %>
+								<input type="text" id="email" name="email" placeholder="Ej: example@example.com" class="form-input" value="<%= old.email ? old.email : ' '%>">
+							<% } else { %>
+								<input type="text" id="email" name="email" placeholder="Ej: example@example.com" class="form-input" value="">
+							<% } %>
 						</div>
 						<div class="col-12">
 							<label for="price" class="form-label">Contraseña:</label>
